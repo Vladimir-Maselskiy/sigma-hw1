@@ -1,0 +1,127 @@
+body {
+  font-family: Roboto, sans-serif;
+  background: var(--third-text-colorr);
+}
+
+:root {
+  --accent-color: #01996d;
+  --first-text-color: #212121;
+  --second-text-color: #757575;
+  --third-text-color: #ffffff;
+  --first-background-color: #f5f4fa;
+  --second-background-color: #2f303a;
+  --third-background-color: #eeeeee;
+  --line-color: #ececec;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+/* -----------HEADER--------------- */
+
+.header-section {
+  border-bottom: 1px solid var(--line-color);
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  max-width: 557px;
+  flex-grow: 2;
+}
+
+.header-logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
+.header-lofo-syffix {
+  color: var(--first-text-color);
+}
+
+.header-list {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.header-item {
+  display: block;
+}
+.header-auth {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 277px;
+}
+
+.header-auth-link {
+  display: flex;
+  align-items: center;
+  height: 51px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+}
+.header-auth-link__activ {
+  display: flex;
+  align-items: center;
+  height: 51px;
+  background-color: var(--accent-color);
+  padding: 13px 50px;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  border-radius: 4px;
+}
