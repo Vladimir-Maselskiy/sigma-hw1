@@ -1,5 +1,9 @@
+/* @font-face {
+  font-family: 'Georgia';
+  src: url('../fonts/georgia/Georgia.ttf');
+} */
 body {
-  font-family: Roboto, sans-serif;
+  font-family: 'Lato', sans-serif;
   background: var(--third-text-colorr);
 }
 
@@ -51,9 +55,8 @@ a {
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  max-width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
+  max-width: 1920px;
+  padding: 0 275px;
   margin: 0 auto;
 }
 
@@ -67,15 +70,15 @@ a {
   flex-wrap: wrap;
 }
 
-.nav-container {
+.header-nav-container {
   display: flex;
   align-items: center;
   max-width: 557px;
   flex-grow: 2;
+  margin-left: 173px;
 }
 
 .header-logo {
-  font-family: Raleway;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
@@ -103,6 +106,7 @@ a {
   align-items: center;
   justify-content: space-between;
   width: 277px;
+  margin-left: 283px;
 }
 
 .header-auth-link {
