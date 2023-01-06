@@ -34,9 +34,9 @@
     <title>Alivio</title>
   </head>
   <body>
-    <header class="header-section">
-      <div class="header-container">
-        <a class="header-logo link" href="" lang="en"
+    <header class="header">
+      <div class="header__container">
+        <a class="header__logo" href="" lang="en"
           ><svg
             width="81"
             height="24"
@@ -70,39 +70,41 @@
             /></svg
         ></a>
         <nav class="header-nav-container">
-          <ul class="header-list list">
-            <li class="header-item">
+          <ul class="header-nav-container__list">
+            <li class="header-nav-container__item">
               <a
-                class="link headert-link current"
+                class="header-nav-container__link"
                 href="./index.html"
                 >Why Alivio</a
               >
             </li>
-            <li class="header-item">
+            <li class="header-nav-container__item">
               <a
-                class="link header-link"
+                class="header-nav-container__link"
                 href="./portfolio.html"
                 >Solutions</a
               >
             </li>
-            <li class="header-item">
-              <a class="link header-link" href=""
+            <li class="header-nav-container__item">
+              <a class="header-nav-container__link" href=""
                 >Community</a
               >
             </li>
-            <li class="header-item">
-              <a class="link header-link" href=""
+            <li class="header-nav-container__item">
+              <a class="header-nav-container__link" href=""
                 >Pricing</a
               >
             </li>
           </ul>
         </nav>
         <ul class="header-auth">
-          <li class="header-auth-item flex">
-            <a class="header-auth-link" href=""> Sign in</a>
+          <li class="header-auth__item">
+            <a class="header-auth__link" href="">
+              Sign in</a
+            >
           </li>
-          <li class="header-auth-item">
-            <a class="header-auth-link__activ" href="">
+          <li class="header-auth__item">
+            <a class="header-auth__link_activ" href="">
               Start Trial</a
             >
           </li>
@@ -110,18 +112,108 @@
       </div>
     </header>
     <main>
-      <section class="section hero-section">
-        <div class="container">
-          <h1 class="main-title">
-            Эффективные решения для вашего бизнеса
-          </h1>
-          <button
-            class="main-btn"
-            type="button"
-            data-modal-open
-          >
-            Заказать услугу
-          </button>
+      <section class="hero-section">
+        <div class="container hero-container">
+          <div class="hero-info">
+            <h1 class="hero-info__title">
+              Be aware, Manage well.
+            </h1>
+            <p class="hero-info__decription">
+              Everyone experiences stress in different ways.
+              Let Alivio guide you, in a personalized
+              journal experience, to overcome your stress.
+            </p>
+            <button class="hero-info__button" type="button">
+              Find Your Way
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="how-its-work-section">
+        <div class="how-its-work-container">
+          <div class="how-its-work-layout">
+            <div class="how-its-work-layout-leftside">
+              <p
+                class="how-its-work-layout-leftside__text-anchor"
+              >
+                How it works
+              </p>
+              <h2
+                class="how-its-work-layout-leftside__title"
+              >
+                Understand & Release the stress in 3 steps
+              </h2>
+            </div>
+            <div class="how-its-work-layout-rightside">
+              <p
+                class="how-its-work-layout-rightside__description"
+              >
+                Alivio offers as many journals it takes,
+                tackling different areas such as anxiety,
+                overwhelmedness, sadness, or anger, and a
+                variety of personal causes, to help you
+                become aware of your emotions, and guide you
+                in how to manage stress.
+              </p>
+            </div>
+          </div>
+          <ul class="how-its-work__list">
+            <li class="how-its-work__item">
+              <p class="how-its-work__item-number">01</p>
+              <h3
+                class="how-its-work__item-title how-its-work__item-title_first"
+              >
+                Personalize
+              </h3>
+              <p class="how-its-work__description">
+                Answer a quick survey about how you express
+                yourself, what causes you stress, and what
+                area would you like to work on. This way, we
+                can fully personalize your journal!
+              </p>
+              <img
+                src="./img/how-its-work-01.jpg"
+                alt="transparent glass and laptop"
+                class="how-its-work__item-image_01"
+              />
+            </li>
+            <li class="how-its-work__item">
+              <p class="how-its-work__item-number">02</p>
+              <h3
+                class="how-its-work__item-title how-its-work__item-title_second"
+              >
+                Write & Understand
+              </h3>
+              <p class="how-its-work__description">
+                Write, draw, reflect, understand. Alivio
+                will guide you through the prompts and will
+                help you manage your stress!
+              </p>
+              <img
+                src="./img/how-its-work-02.jpg"
+                alt="opened notebook"
+                class="how-its-work__item-image_02"
+              />
+            </li>
+            <li class="how-its-work__item">
+              <p class="how-its-work__item-number">03</p>
+              <h3
+                class="how-its-work__item-title how-its-work__item-title_third"
+              >
+                Alivio!
+              </h3>
+              <p class="how-its-work__description">
+                Now you are aware, and have a way to manage
+                and overcome your own stress. What are you
+                waiting for? Alivio today!
+              </p>
+              <img
+                src="./img/how-its-work-03.jpg"
+                alt="smiling girl"
+                class="how-its-work__item-image_03"
+              />
+            </li>
+          </ul>
         </div>
       </section>
     </main>
