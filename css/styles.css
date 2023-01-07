@@ -63,7 +63,6 @@ a {
   align-items: center;
   justify-content: space-between;
   width: 1370px;
-  /* padding: 0 75px; */
   margin: 0 auto;
 }
 
@@ -151,7 +150,7 @@ a {
   background-image: url('../img//hero-bg.png');
   background-size: fill;
   background-position: center;
-  border-top: 1px solid #00000033;
+  border-top: 1px solid #d6d6d6;
 }
 
 .hero-info {
@@ -188,6 +187,7 @@ a {
   padding: 20px 50px;
   border-radius: 4px;
   border: 1px solid var(--accent-color);
+  cursor: pointer;
 }
 
 /* ---------------HOW-ITS-WORK SECTION--------------------- */
@@ -200,8 +200,6 @@ a {
 .how-its-work-container {
   width: 1370px;
   margin: 0 auto;
-  /* padding-left: 275px;
-  padding-right: 232px; */
 }
 
 .how-its-work-layout {
@@ -354,6 +352,7 @@ a {
   font-weight: 400;
   font-size: 20px;
   line-height: 1.25;
+  cursor: pointer;
 }
 
 .about-right-box {
@@ -443,6 +442,7 @@ a {
   border-radius: 4px;
   border: 1px solid var(--accent-color);
   color: var(--second-text-color);
+  cursor: pointer;
 }
 
 /* ----------------FOOTER-------------------- */
