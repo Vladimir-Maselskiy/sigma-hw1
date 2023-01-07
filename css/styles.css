@@ -3,7 +3,7 @@
   src: url('../fonts/avenir/AvenirLTStd-Black.otf');
 }
 body {
-  font-family: 'Lato', 'Avenir', sans-serif;
+  font-family: 'Lato', 'Avenir', 'Poppins', sans-serif;
 }
 
 :root {
@@ -54,16 +54,17 @@ a {
 }
 
 /* -----------HEADER--------------- */
+.header {
+  width: 100vw;
+}
 
 .header__container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 100%;
-  max-width: 1920px;
-  padding: 0 275px;
+  width: 1370px;
+  /* padding: 0 75px; */
   margin: 0 auto;
-  border-bottom: 1px solid #00000033;
 }
 
 .flex {
@@ -146,9 +147,11 @@ a {
 .hero-container {
   position: relative;
   height: 895px;
+  max-width: 1920px;
   background-image: url('../img//hero-bg.png');
   background-size: fill;
   background-position: center;
+  border-top: 1px solid #00000033;
 }
 
 .hero-info {
@@ -195,10 +198,10 @@ a {
 }
 
 .how-its-work-container {
-  max-width: 1920px;
+  width: 1370px;
   margin: 0 auto;
-  padding-left: 275px;
-  padding-right: 232px;
+  /* padding-left: 275px;
+  padding-right: 232px; */
 }
 
 .how-its-work-layout {
@@ -381,16 +384,15 @@ a {
 
 .our-product-container {
   display: flex;
-  max-width: 1920px;
+  width: 1370px;
   margin: 0 auto;
-  padding: 0 275px 0 255px;
 }
 
 .our-product-left-box {
   position: relative;
 
-  padding-left: 81px;
-  padding-bottom: 95px;
+  padding-left: 61px;
+  padding-bottom: 75px;
 }
 
 .our-product-image {
@@ -460,6 +462,7 @@ a {
 
 .footer-nav {
   color: var(--second-text-color);
+  margin-right: 60px;
 }
 
 .footer-list {
@@ -487,14 +490,17 @@ a {
 
 .footer-social-box {
   display: flex;
-  margin-left: auto;
+  justify-content: space-between;
   margin-top: auto;
+  margin-left: auto;
+  max-width: 1076px;
+  flex-grow: 1;
 }
 
 .social-links-list {
   display: flex;
   width: 357px;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .footer-social-link {
@@ -504,7 +510,6 @@ a {
   width: 80px;
   height: 80px;
   border-radius: 50%;
-  /* background-color: red; */
 }
 
 .social-links-item__link_facebook {
@@ -539,9 +544,23 @@ a {
 }
 
 .social-mobile-store-list {
+  position: relative;
   display: flex;
   width: 432px;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+
+.social-mobile-store-list__title {
+  position: absolute;
+  top: -77px;
+  left: 131px;
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.25%;
+  letter-spacing: 0.005em;
+  color: var(--second-text-color);
 }
 
 .social-mobile-store-item {
